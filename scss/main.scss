@@ -1,0 +1,26 @@
+//custom variables
+$primary: #fb6f92;
+$secondary: #ff8fab;
+$light: #ffe5ec;
+.nav-link:hover {
+  color: $primary !important;
+}
+a.active {
+  color: $primary !important;
+}
+.card a:hover {
+  color: white !important;
+}
+//import the function & variable
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-color: (
+  "altlight": #f2ebfa,
+  "altdark": #522192,
+  "golden": #f8cc1b,
+);
+
+$theme-colors: map-merge($custom-theme-color, $theme-colors);
+//import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
