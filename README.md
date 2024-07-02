@@ -4,7 +4,7 @@ Used  Technology</br>
 -html </br>
 -bootstrap   </br>
 -SASS </br>
--Node js moudules "to cusomize bootstrap"</br>
+-Node js moudules "to cusفomize bootstrap"</br>
 Project-Demo : https://hhaneen.github.io/Book-Store/
 </br> </br>
 ![Screenshot_1](https://github.com/HHaneen/Book-Store/assets/105988793/304b9d47-3fa6-45e5-911a-4fca4bdf39bb)
